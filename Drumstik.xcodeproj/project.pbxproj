@@ -8,16 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		1573E45F39F9D094B0076570 /* libPods-Drumstik.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDED5E9FA8B458F89D76CC9 /* libPods-Drumstik.a */; };
+		3D51F90C2246CA9B000357F5 /* floor-tom-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D51F90B2246CA9B000357F5 /* floor-tom-1.wav */; };
 		3DC6D1642245C7AE0053E9F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6D1632245C7AE0053E9F5 /* AppDelegate.m */; };
 		3DC6D1672245C7AE0053E9F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6D1662245C7AE0053E9F5 /* ViewController.m */; };
 		3DC6D16A2245C7AE0053E9F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC6D1682245C7AE0053E9F5 /* Main.storyboard */; };
 		3DC6D16C2245C7AF0053E9F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC6D16B2245C7AF0053E9F5 /* Assets.xcassets */; };
 		3DC6D16F2245C7AF0053E9F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC6D16D2245C7AF0053E9F5 /* LaunchScreen.storyboard */; };
 		3DC6D1722245C7AF0053E9F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6D1712245C7AF0053E9F5 /* main.m */; };
-		3DD1F7392245C9C8005BD345 /* floor-tom-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3DD1F7382245C9C8005BD345 /* floor-tom-1.wav */; };
+		3DD1F73B22469FF7005BD345 /* stick@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD1F73A22469FF7005BD345 /* stick@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D51F90B2246CA9B000357F5 /* floor-tom-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "floor-tom-1.wav"; sourceTree = "<group>"; };
 		3DC6D15F2245C7AE0053E9F5 /* Drumstik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drumstik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC6D1622245C7AE0053E9F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3DC6D1632245C7AE0053E9F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,7 +30,7 @@
 		3DC6D16E2245C7AF0053E9F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DC6D1702245C7AF0053E9F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DC6D1712245C7AF0053E9F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3DD1F7382245C9C8005BD345 /* floor-tom-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "floor-tom-1.wav"; sourceTree = "<group>"; };
+		3DD1F73A22469FF7005BD345 /* stick@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stick@3x.png"; sourceTree = "<group>"; };
 		52459FC8760FC703F5A2A24B /* Pods-Drumstik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drumstik.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Drumstik/Pods-Drumstik.debug.xcconfig"; sourceTree = "<group>"; };
 		BFDED5E9FA8B458F89D76CC9 /* libPods-Drumstik.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Drumstik.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E617BCA0607EAF36CF847CEE /* Pods-Drumstik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drumstik.release.xcconfig"; path = "Pods/Target Support Files/Pods-Drumstik/Pods-Drumstik.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,7 +83,8 @@
 				3DC6D1662245C7AE0053E9F5 /* ViewController.m */,
 				3DC6D1682245C7AE0053E9F5 /* Main.storyboard */,
 				3DC6D16B2245C7AF0053E9F5 /* Assets.xcassets */,
-				3DD1F7382245C9C8005BD345 /* floor-tom-1.wav */,
+				3D51F90B2246CA9B000357F5 /* floor-tom-1.wav */,
+				3DD1F73A22469FF7005BD345 /* stick@3x.png */,
 				3DC6D16D2245C7AF0053E9F5 /* LaunchScreen.storyboard */,
 				3DC6D1702245C7AF0053E9F5 /* Info.plist */,
 				3DC6D1712245C7AF0053E9F5 /* main.m */,
@@ -156,10 +159,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DD1F7392245C9C8005BD345 /* floor-tom-1.wav in Resources */,
+				3D51F90C2246CA9B000357F5 /* floor-tom-1.wav in Resources */,
 				3DC6D16F2245C7AF0053E9F5 /* LaunchScreen.storyboard in Resources */,
 				3DC6D16C2245C7AF0053E9F5 /* Assets.xcassets in Resources */,
 				3DC6D16A2245C7AE0053E9F5 /* Main.storyboard in Resources */,
+				3DD1F73B22469FF7005BD345 /* stick@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

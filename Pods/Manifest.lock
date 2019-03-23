@@ -1,0 +1,16 @@
+PODS:
+  - Finch (1.0.3)
+
+DEPENDENCIES:
+  - Finch
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Finch
+
+SPEC CHECKSUMS:
+  Finch: 96b95b2d01f91a40b546b78c24b3bcfce7cb2b6b
+
+PODFILE CHECKSUM: 6110498b3857ed003687c1e1d1173d4d64927213
+
+COCOAPODS: 1.5.3

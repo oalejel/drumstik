@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1573E45F39F9D094B0076570 /* libPods-Drumstik.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFDED5E9FA8B458F89D76CC9 /* libPods-Drumstik.a */; };
+		3D2B719D22480E060019BC6F /* snare-rim-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D2B719C22480E060019BC6F /* snare-rim-1.wav */; };
+		3D2B719F22480E0B0019BC6F /* snare-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D2B719E22480E0B0019BC6F /* snare-1.wav */; };
+		3D2B71A122480E0F0019BC6F /* kick-drum-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D2B71A022480E0F0019BC6F /* kick-drum-1.wav */; };
+		3D2B71A42248340E0019BC6F /* MultitouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B71A32248340E0019BC6F /* MultitouchView.m */; };
 		3D51F90C2246CA9B000357F5 /* floor-tom-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D51F90B2246CA9B000357F5 /* floor-tom-1.wav */; };
 		3DC6D1642245C7AE0053E9F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6D1632245C7AE0053E9F5 /* AppDelegate.m */; };
 		3DC6D1672245C7AE0053E9F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6D1662245C7AE0053E9F5 /* ViewController.m */; };
@@ -19,6 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D2B719C22480E060019BC6F /* snare-rim-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "snare-rim-1.wav"; sourceTree = "<group>"; };
+		3D2B719E22480E0B0019BC6F /* snare-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "snare-1.wav"; sourceTree = "<group>"; };
+		3D2B71A022480E0F0019BC6F /* kick-drum-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kick-drum-1.wav"; sourceTree = "<group>"; };
+		3D2B71A22248340E0019BC6F /* MultitouchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultitouchView.h; sourceTree = "<group>"; };
+		3D2B71A32248340E0019BC6F /* MultitouchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultitouchView.m; sourceTree = "<group>"; };
 		3D51F90B2246CA9B000357F5 /* floor-tom-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "floor-tom-1.wav"; sourceTree = "<group>"; };
 		3DC6D15F2245C7AE0053E9F5 /* Drumstik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drumstik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC6D1622245C7AE0053E9F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,9 +90,14 @@
 				3DC6D1632245C7AE0053E9F5 /* AppDelegate.m */,
 				3DC6D1652245C7AE0053E9F5 /* ViewController.h */,
 				3DC6D1662245C7AE0053E9F5 /* ViewController.m */,
+				3D2B71A22248340E0019BC6F /* MultitouchView.h */,
+				3D2B71A32248340E0019BC6F /* MultitouchView.m */,
 				3DC6D1682245C7AE0053E9F5 /* Main.storyboard */,
 				3DC6D16B2245C7AF0053E9F5 /* Assets.xcassets */,
 				3D51F90B2246CA9B000357F5 /* floor-tom-1.wav */,
+				3D2B719C22480E060019BC6F /* snare-rim-1.wav */,
+				3D2B719E22480E0B0019BC6F /* snare-1.wav */,
+				3D2B71A022480E0F0019BC6F /* kick-drum-1.wav */,
 				3DD1F73A22469FF7005BD345 /* stick@3x.png */,
 				3DC6D16D2245C7AF0053E9F5 /* LaunchScreen.storyboard */,
 				3DC6D1702245C7AF0053E9F5 /* Info.plist */,
@@ -159,11 +173,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D2B71A122480E0F0019BC6F /* kick-drum-1.wav in Resources */,
 				3D51F90C2246CA9B000357F5 /* floor-tom-1.wav in Resources */,
 				3DC6D16F2245C7AF0053E9F5 /* LaunchScreen.storyboard in Resources */,
 				3DC6D16C2245C7AF0053E9F5 /* Assets.xcassets in Resources */,
+				3D2B719F22480E0B0019BC6F /* snare-1.wav in Resources */,
 				3DC6D16A2245C7AE0053E9F5 /* Main.storyboard in Resources */,
 				3DD1F73B22469FF7005BD345 /* stick@3x.png in Resources */,
+				3D2B719D22480E060019BC6F /* snare-rim-1.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D2B71A42248340E0019BC6F /* MultitouchView.m in Sources */,
 				3DC6D1672245C7AE0053E9F5 /* ViewController.m in Sources */,
 				3DC6D1722245C7AF0053E9F5 /* main.m in Sources */,
 				3DC6D1642245C7AE0053E9F5 /* AppDelegate.m in Sources */,

@@ -9,31 +9,42 @@
 /* Begin PBXBuildFile section */
 		033B7CD112150C76D43F53E6E5F84EB0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BA774EC567FC7DF13BB915E5FF9DF7 /* OpenAL.framework */; };
 		03BEBEAFFE9178F9872C41757961F269 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDDC839F11FB252337BFC2E591FAFF7 /* AudioToolbox.framework */; };
-		2113313199BF83F5549D1F6E3E928E75 /* FISoundContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C27F3C0743928092E0854107481B2A7 /* FISoundContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2B96D906A19B5B070A13641F80266F7A /* FISoundSource.h in Headers */ = {isa = PBXBuildFile; fileRef = E5C3CEEA9050A4A68E53BCE4FEDD202F /* FISoundSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2EA5A8997C37D23DB8F683D4FBE76E0D /* FISampleFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A966647DFBE589970CF67231628A9D /* FISampleFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		34A6F9F8519DA81CD31A18FA694CD7A8 /* FISampleFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E7D61761D6F57E08633C9295434D256 /* FISampleFormat.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		34E254CB8ECF9FE6489B43A4B0179CA0 /* FIError.h in Headers */ = {isa = PBXBuildFile; fileRef = 16F64B4C4391E0FCE11C71D0596B73D6 /* FIError.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3FF39EB0C0D3FA60A326596EDD7DC3CB /* FISoundSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 974B82F3FC30434521274D39CAB563EF /* FISoundSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		477920BF5E34B9A50CC5AAA23E3B6718 /* FISampleBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 180D3B0445FA2AB581A6C37FA44AFA24 /* FISampleBuffer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5498CB7CB346A3C52C72D4B22BA0351E /* Pods-Drumstik-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44F03A1C7138B46A2622C95D595A6190 /* Pods-Drumstik-dummy.m */; };
-		55FA7532EBDEEDCBAACFC1D803786B40 /* FIError.m in Sources */ = {isa = PBXBuildFile; fileRef = 133723A83CE0D5D09C6BD0EAEA535DE9 /* FIError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5E45CC081AFA6177A142F146C6E30440 /* FISoundEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 809AFFF71FEA6424B94C6D98417BDDA5 /* FISoundEngine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		799E72CF230F6ED618780085E54AC4FA /* FISampleDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 95B8508F100E70B181A494D82A2D25CA /* FISampleDecoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7D185D3859C2D6A3A438AAAE164EC9DE /* FISoundDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F897596F876D9CBD5938CB176EFDF38 /* FISoundDevice.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8D6ED1A229FC41A76202AC5A15E064D3 /* FISoundDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 276530C11EC804C98F731F0D46E9B6B8 /* FISoundDevice.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		99A56F035936579BD91FC5CE6508E67F /* Finch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97198D82530A4C65330695042034139D /* Finch-dummy.m */; };
+		2113313199BF83F5549D1F6E3E928E75 /* FISoundContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 633DD7FE45FA592381B6C2799F91984B /* FISoundContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2B96D906A19B5B070A13641F80266F7A /* FISoundSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 242EE5984FA39019FB0E3EA14CB2A278 /* FISoundSource.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2EA5A8997C37D23DB8F683D4FBE76E0D /* FISampleFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = EF05D89167302E53B414E77208DF83C2 /* FISampleFormat.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		34A6F9F8519DA81CD31A18FA694CD7A8 /* FISampleFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 982FBB7A470E00971969AE396949B6E4 /* FISampleFormat.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		34E254CB8ECF9FE6489B43A4B0179CA0 /* FIError.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DA4B722AD7251744D090BF80DCA6F5F /* FIError.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3FF39EB0C0D3FA60A326596EDD7DC3CB /* FISoundSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D963DB4D9506E46BE25F6F8A85561E8 /* FISoundSource.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		477920BF5E34B9A50CC5AAA23E3B6718 /* FISampleBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A32365B2598DF89C0B1EE92952CECBC /* FISampleBuffer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		55FA7532EBDEEDCBAACFC1D803786B40 /* FIError.m in Sources */ = {isa = PBXBuildFile; fileRef = 682EDCC96B304CCF0241E49BD6B39DC6 /* FIError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		56E38543CC628FE51243E2AAEC09B61D /* Pods-Drumstik-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D89552F7B06B1928486358407D22879E /* Pods-Drumstik-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5E45CC081AFA6177A142F146C6E30440 /* FISoundEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9C60EAEA8C7F90A5DEFA26B4A56B43 /* FISoundEngine.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		65866131343987752B96AB1292869542 /* Pods-Drumstik-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A65B0E59DD6930E98DE88211E0D7F71D /* Pods-Drumstik-dummy.m */; };
+		799E72CF230F6ED618780085E54AC4FA /* FISampleDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 627D675ED739A7ED321058F59B9A8CAD /* FISampleDecoder.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D185D3859C2D6A3A438AAAE164EC9DE /* FISoundDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B6105BB0ECF6CE8A93A8898B987A67A /* FISoundDevice.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D6ED1A229FC41A76202AC5A15E064D3 /* FISoundDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 05CC8994C304560DD3D67E998FABCA67 /* FISoundDevice.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		99A56F035936579BD91FC5CE6508E67F /* Finch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 904313A09047F1AB20AE7121514AD3F5 /* Finch-dummy.m */; };
 		B2C0697C6CD07CD454C26738183CEBC6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A574FF439F4787273493D954FD779C /* AVFoundation.framework */; };
-		C4D3D26B8D71A5EFC4F0EB8906439209 /* FISampleBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = C1BB37B51547D9F51DB7365C7ED4F17A /* FISampleBuffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CCC2777BC3DF7795CD3E8FDD7B5E3B05 /* FISampleDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0723540E03C86FBE222D671042C99543 /* FISampleDecoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D282D749138F3B962A6B9775ED59A703 /* FISoundContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AFB068CC6C5B2A080EEBFE1C1B07B8 /* FISoundContext.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		EBCC5195E4416348E0EA1ACC8C74831F /* FISound.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DFA81AAE0B734313B934D234DE7510 /* FISound.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		ED30F4E2FF3250B3AA4E3C72C9DF95C6 /* FISound.h in Headers */ = {isa = PBXBuildFile; fileRef = E219DC00854BCE9C6B549C5ACAD67025 /* FISound.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FEDBF345F049C48D5F1FD7D51DB7F86A /* FISoundEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = A3BF2AB9AF401EB7642DD9BDA9527982 /* FISoundEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B2F2F94904D2BDAE134146B0FDFD4ED5 /* SandboxBrowser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C6832F7BCCCBD675D9ABB8C8D9BF94 /* SandboxBrowser-dummy.m */; };
+		C4D3D26B8D71A5EFC4F0EB8906439209 /* FISampleBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8A9EAFDBB43C3DC73E129096A3B891 /* FISampleBuffer.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CCC2777BC3DF7795CD3E8FDD7B5E3B05 /* FISampleDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A150577A3CB0DEDCD91C49AECA4AB3 /* FISampleDecoder.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D282D749138F3B962A6B9775ED59A703 /* FISoundContext.m in Sources */ = {isa = PBXBuildFile; fileRef = F797392EF703625F711EEBBD08C7194B /* FISoundContext.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EA498AFDDB4BCEB55FFE6E040B89C692 /* SandboxBrowser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C5E6219E8DA7DAA3C0078850BE5E7B8 /* SandboxBrowser-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EBCC5195E4416348E0EA1ACC8C74831F /* FISound.m in Sources */ = {isa = PBXBuildFile; fileRef = 388B0380397D3C8EC993B093F6551265 /* FISound.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ED30F4E2FF3250B3AA4E3C72C9DF95C6 /* FISound.h in Headers */ = {isa = PBXBuildFile; fileRef = BDB4C2C94A52BDDAB49BBE0C460007A4 /* FISound.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F28B6F2A838D86BE959A83E383041CF8 /* SandboxBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3286D487DD47BC4832609FE5980400D /* SandboxBrowser.swift */; };
+		FEDBF345F049C48D5F1FD7D51DB7F86A /* FISoundEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 639DAE70BBE2CD601DA88C237ED71ED1 /* FISoundEngine.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0D55D8D9DF424B047D921B66F7E7C7F7 /* PBXContainerItemProxy */ = {
+		1B43D4D6B3F80A40AEF1D517C319AEE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C29CC62917038C7E94B20581A87D0FDF;
+			remoteInfo = SandboxBrowser;
+		};
+		D69BC2F7AC4098496C6CC67705E9898E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -43,40 +54,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0723540E03C86FBE222D671042C99543 /* FISampleDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FISampleDecoder.m; path = Finch/FISampleDecoder.m; sourceTree = "<group>"; };
-		133723A83CE0D5D09C6BD0EAEA535DE9 /* FIError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIError.m; path = Finch/FIError.m; sourceTree = "<group>"; };
-		157C34CA909D7D07CF40DBD95C52E415 /* Pods-Drumstik-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Drumstik-resources.sh"; sourceTree = "<group>"; };
-		16F64B4C4391E0FCE11C71D0596B73D6 /* FIError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIError.h; path = Finch/FIError.h; sourceTree = "<group>"; };
-		17A966647DFBE589970CF67231628A9D /* FISampleFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FISampleFormat.m; path = Finch/FISampleFormat.m; sourceTree = "<group>"; };
-		180D3B0445FA2AB581A6C37FA44AFA24 /* FISampleBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FISampleBuffer.m; path = Finch/FISampleBuffer.m; sourceTree = "<group>"; };
-		276530C11EC804C98F731F0D46E9B6B8 /* FISoundDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FISoundDevice.m; path = Finch/FISoundDevice.m; sourceTree = "<group>"; };
-		3C27F3C0743928092E0854107481B2A7 /* FISoundContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FISoundContext.h; path = Finch/FISoundContext.h; sourceTree = "<group>"; };
-		3F897596F876D9CBD5938CB176EFDF38 /* FISoundDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FISoundDevice.h; path = Finch/FISoundDevice.h; sourceTree = "<group>"; };
+		05CC8994C304560DD3D67E998FABCA67 /* FISoundDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FISoundDevice.m; path = Finch/FISoundDevice.m; sourceTree = "<group>"; };
+		0AB1823ECE07D156A6EE6D0326FF5FEA /* SandboxBrowser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SandboxBrowser-prefix.pch"; sourceTree = "<group>"; };
+		14C2996F7F50863B60F14A567A4F5B15 /* libSandboxBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSandboxBrowser.a; path = libSandboxBrowser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EA1F87E558BB8706382B3C35B96B0C4 /* SandboxBrowser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SandboxBrowser.xcconfig; sourceTree = "<group>"; };
+		21E398EA9D4952ACBFA4CEFB64DC1CEC /* Pods-Drumstik-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Drumstik-acknowledgements.markdown"; sourceTree = "<group>"; };
+		242EE5984FA39019FB0E3EA14CB2A278 /* FISoundSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FISoundSource.h; path = Finch/FISoundSource.h; sourceTree = "<group>"; };
+		25C6832F7BCCCBD675D9ABB8C8D9BF94 /* SandboxBrowser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SandboxBrowser-dummy.m"; sourceTree = "<group>"; };
+		33683A3F4E94461A14335790AD4BF0D0 /* Pods-Drumstik-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Drumstik-resources.sh"; sourceTree = "<group>"; };
+		36C1B2F281D650750105998C67F67AF8 /* Finch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Finch-prefix.pch"; sourceTree = "<group>"; };
+		388B0380397D3C8EC993B093F6551265 /* FISound.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FISound.m; path = Finch/FISound.m; sourceTree = "<group>"; };
+		38B6D9EF18AF9B2B4FE522D61F2F7186 /* libFinch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFinch.a; path = libFinch.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A574FF439F4787273493D954FD779C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		44F03A1C7138B46A2622C95D595A6190 /* Pods-Drumstik-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Drumstik-dummy.m"; sourceTree = "<group>"; };
-		45DE939CF375A44ED3C1C51E07D67461 /* Pods-Drumstik-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Drumstik-frameworks.sh"; sourceTree = "<group>"; };
-		4621F6CE9153C1DA627921ECDA8E743F /* Pods-Drumstik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Drumstik.release.xcconfig"; sourceTree = "<group>"; };
-		46AFB068CC6C5B2A080EEBFE1C1B07B8 /* FISoundContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FISoundContext.m; path = Finch/FISoundContext.m; sourceTree = "<group>"; };
 		46BA774EC567FC7DF13BB915E5FF9DF7 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/OpenAL.framework; sourceTree = DEVELOPER_DIR; };
-		4DE94F4C846FCFE6FD709072723F8853 /* libPods-Drumstik.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Drumstik.a"; path = "libPods-Drumstik.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		59C54246DC9B91CE35982DEB4C829072 /* Pods-Drumstik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Drumstik.debug.xcconfig"; sourceTree = "<group>"; };
-		5C9DCEBDA5ECAC3CD0F2FCBEB51C9662 /* Finch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Finch.xcconfig; sourceTree = "<group>"; };
-		809AFFF71FEA6424B94C6D98417BDDA5 /* FISoundEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FISoundEngine.m; path = Finch/FISoundEngine.m; sourceTree = "<group>"; };
-		8E7D61761D6F57E08633C9295434D256 /* FISampleFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FISampleFormat.h; path = Finch/FISampleFormat.h; sourceTree = "<group>"; };
+		4C5E6219E8DA7DAA3C0078850BE5E7B8 /* SandboxBrowser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SandboxBrowser-umbrella.h"; path = "../../Headers/Public/SandboxBrowser/SandboxBrowser-umbrella.h"; sourceTree = "<group>"; };
+		4ECE03ED98307C04A35DC47728960098 /* Pods-Drumstik-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Drumstik-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B6105BB0ECF6CE8A93A8898B987A67A /* FISoundDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FISoundDevice.h; path = Finch/FISoundDevice.h; sourceTree = "<group>"; };
+		627D675ED739A7ED321058F59B9A8CAD /* FISampleDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FISampleDecoder.h; path = Finch/FISampleDecoder.h; sourceTree = "<group>"; };
+		633DD7FE45FA592381B6C2799F91984B /* FISoundContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FISoundContext.h; path = Finch/FISoundContext.h; sourceTree = "<group>"; };
+		639DAE70BBE2CD601DA88C237ED71ED1 /* FISoundEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FISoundEngine.h; path = Finch/FISoundEngine.h; sourceTree = "<group>"; };
+		682EDCC96B304CCF0241E49BD6B39DC6 /* FIError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FIError.m; path = Finch/FIError.m; sourceTree = "<group>"; };
+		6D963DB4D9506E46BE25F6F8A85561E8 /* FISoundSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FISoundSource.m; path = Finch/FISoundSource.m; sourceTree = "<group>"; };
+		6DA4B722AD7251744D090BF80DCA6F5F /* FIError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIError.h; path = Finch/FIError.h; sourceTree = "<group>"; };
+		74A150577A3CB0DEDCD91C49AECA4AB3 /* FISampleDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FISampleDecoder.m; path = Finch/FISampleDecoder.m; sourceTree = "<group>"; };
+		75583ED6F8DDFB817481742CA8B5E8AD /* Finch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Finch.xcconfig; sourceTree = "<group>"; };
+		904313A09047F1AB20AE7121514AD3F5 /* Finch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Finch-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95B8508F100E70B181A494D82A2D25CA /* FISampleDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FISampleDecoder.h; path = Finch/FISampleDecoder.h; sourceTree = "<group>"; };
-		97198D82530A4C65330695042034139D /* Finch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Finch-dummy.m"; sourceTree = "<group>"; };
-		974B82F3FC30434521274D39CAB563EF /* FISoundSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FISoundSource.m; path = Finch/FISoundSource.m; sourceTree = "<group>"; };
-		A3BF2AB9AF401EB7642DD9BDA9527982 /* FISoundEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FISoundEngine.h; path = Finch/FISoundEngine.h; sourceTree = "<group>"; };
-		A74265769FF8A4D3B339758812DB4656 /* Pods-Drumstik-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Drumstik-acknowledgements.plist"; sourceTree = "<group>"; };
+		9822E69EB9D01B1821B82B830A6094A1 /* Pods-Drumstik-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Drumstik-frameworks.sh"; sourceTree = "<group>"; };
+		982FBB7A470E00971969AE396949B6E4 /* FISampleFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FISampleFormat.h; path = Finch/FISampleFormat.h; sourceTree = "<group>"; };
+		9A32365B2598DF89C0B1EE92952CECBC /* FISampleBuffer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FISampleBuffer.m; path = Finch/FISampleBuffer.m; sourceTree = "<group>"; };
+		9B9C60EAEA8C7F90A5DEFA26B4A56B43 /* FISoundEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FISoundEngine.m; path = Finch/FISoundEngine.m; sourceTree = "<group>"; };
+		A65B0E59DD6930E98DE88211E0D7F71D /* Pods-Drumstik-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Drumstik-dummy.m"; sourceTree = "<group>"; };
+		A6F595E2061FEACD242ACBB3C0A7CB64 /* Pods-Drumstik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Drumstik.debug.xcconfig"; sourceTree = "<group>"; };
+		B3286D487DD47BC4832609FE5980400D /* SandboxBrowser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SandboxBrowser.swift; path = SandboxBrowserExample/SandboxBrowser/SandboxBrowser.swift; sourceTree = "<group>"; };
+		BD276F16E073516AF5A9AEE3824ED92A /* Resources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Resources.bundle; path = SandboxBrowserExample/SandboxBrowser/Resources/Resources.bundle; sourceTree = "<group>"; };
+		BDB4C2C94A52BDDAB49BBE0C460007A4 /* FISound.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FISound.h; path = Finch/FISound.h; sourceTree = "<group>"; };
 		BEDDC839F11FB252337BFC2E591FAFF7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		C1BB37B51547D9F51DB7365C7ED4F17A /* FISampleBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FISampleBuffer.h; path = Finch/FISampleBuffer.h; sourceTree = "<group>"; };
-		C4626A4372752D7D7BE06F6BC13A58D3 /* Pods-Drumstik-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Drumstik-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D0158753710D484D47A1DFC8CCE6057C /* libFinch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFinch.a; path = libFinch.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D72B86B1C44B0C9B142433D92DEEFB02 /* Finch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Finch-prefix.pch"; sourceTree = "<group>"; };
-		E219DC00854BCE9C6B549C5ACAD67025 /* FISound.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FISound.h; path = Finch/FISound.h; sourceTree = "<group>"; };
-		E5C3CEEA9050A4A68E53BCE4FEDD202F /* FISoundSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FISoundSource.h; path = Finch/FISoundSource.h; sourceTree = "<group>"; };
-		E6DFA81AAE0B734313B934D234DE7510 /* FISound.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FISound.m; path = Finch/FISound.m; sourceTree = "<group>"; };
+		BF78F8CF852829D89F9DB13BB4AC3F69 /* SandboxBrowser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = SandboxBrowser.modulemap; path = ../../Headers/Public/SandboxBrowser/SandboxBrowser.modulemap; sourceTree = "<group>"; };
+		CD8865BC97AB30D4B8660F9F4BFCB558 /* Pods-Drumstik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Drumstik.release.xcconfig"; sourceTree = "<group>"; };
+		D89552F7B06B1928486358407D22879E /* Pods-Drumstik-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Drumstik-umbrella.h"; sourceTree = "<group>"; };
+		DD8A9EAFDBB43C3DC73E129096A3B891 /* FISampleBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FISampleBuffer.h; path = Finch/FISampleBuffer.h; sourceTree = "<group>"; };
+		EF05D89167302E53B414E77208DF83C2 /* FISampleFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FISampleFormat.m; path = Finch/FISampleFormat.m; sourceTree = "<group>"; };
+		F655E2A41F68160D7A9171E3BD04314F /* Pods-Drumstik.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Drumstik.modulemap"; sourceTree = "<group>"; };
+		F797392EF703625F711EEBBD08C7194B /* FISoundContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FISoundContext.m; path = Finch/FISoundContext.m; sourceTree = "<group>"; };
+		F984B441EEAF8E9721180BE62FD8CB61 /* libPods-Drumstik.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Drumstik.a"; path = "libPods-Drumstik.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +111,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1AF46852ADE7E7404F6331FD928881B /* Frameworks */ = {
+		6BE79CD3824A4D371C31F125850C390A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ECEE46C562D97CEC89FBCA1885D9890 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -108,6 +136,44 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		1C1036AFAAD26132AB379C2343C45027 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75583ED6F8DDFB817481742CA8B5E8AD /* Finch.xcconfig */,
+				904313A09047F1AB20AE7121514AD3F5 /* Finch-dummy.m */,
+				36C1B2F281D650750105998C67F67AF8 /* Finch-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Finch";
+			sourceTree = "<group>";
+		};
+		1ED6A92C8552A3DB4406F61617A0A051 /* Finch */ = {
+			isa = PBXGroup;
+			children = (
+				6DA4B722AD7251744D090BF80DCA6F5F /* FIError.h */,
+				682EDCC96B304CCF0241E49BD6B39DC6 /* FIError.m */,
+				DD8A9EAFDBB43C3DC73E129096A3B891 /* FISampleBuffer.h */,
+				9A32365B2598DF89C0B1EE92952CECBC /* FISampleBuffer.m */,
+				627D675ED739A7ED321058F59B9A8CAD /* FISampleDecoder.h */,
+				74A150577A3CB0DEDCD91C49AECA4AB3 /* FISampleDecoder.m */,
+				982FBB7A470E00971969AE396949B6E4 /* FISampleFormat.h */,
+				EF05D89167302E53B414E77208DF83C2 /* FISampleFormat.m */,
+				BDB4C2C94A52BDDAB49BBE0C460007A4 /* FISound.h */,
+				388B0380397D3C8EC993B093F6551265 /* FISound.m */,
+				633DD7FE45FA592381B6C2799F91984B /* FISoundContext.h */,
+				F797392EF703625F711EEBBD08C7194B /* FISoundContext.m */,
+				5B6105BB0ECF6CE8A93A8898B987A67A /* FISoundDevice.h */,
+				05CC8994C304560DD3D67E998FABCA67 /* FISoundDevice.m */,
+				639DAE70BBE2CD601DA88C237ED71ED1 /* FISoundEngine.h */,
+				9B9C60EAEA8C7F90A5DEFA26B4A56B43 /* FISoundEngine.m */,
+				242EE5984FA39019FB0E3EA14CB2A278 /* FISoundSource.h */,
+				6D963DB4D9506E46BE25F6F8A85561E8 /* FISoundSource.m */,
+				1C1036AFAAD26132AB379C2343C45027 /* Support Files */,
+			);
+			name = Finch;
+			path = Finch;
+			sourceTree = "<group>";
+		};
 		328F4A0E5869F01FC923D2C21F070B01 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,66 +184,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		33FBAB8BCA5C3A2CC442DB09526CF237 /* Products */ = {
+		774DAA79D39F833AEAEF3002D17C8FB4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0158753710D484D47A1DFC8CCE6057C /* libFinch.a */,
-				4DE94F4C846FCFE6FD709072723F8853 /* libPods-Drumstik.a */,
+				38B6D9EF18AF9B2B4FE522D61F2F7186 /* libFinch.a */,
+				F984B441EEAF8E9721180BE62FD8CB61 /* libPods-Drumstik.a */,
+				14C2996F7F50863B60F14A567A4F5B15 /* libSandboxBrowser.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		388158CFA543B9196E9D703955499C47 /* Finch */ = {
-			isa = PBXGroup;
-			children = (
-				16F64B4C4391E0FCE11C71D0596B73D6 /* FIError.h */,
-				133723A83CE0D5D09C6BD0EAEA535DE9 /* FIError.m */,
-				C1BB37B51547D9F51DB7365C7ED4F17A /* FISampleBuffer.h */,
-				180D3B0445FA2AB581A6C37FA44AFA24 /* FISampleBuffer.m */,
-				95B8508F100E70B181A494D82A2D25CA /* FISampleDecoder.h */,
-				0723540E03C86FBE222D671042C99543 /* FISampleDecoder.m */,
-				8E7D61761D6F57E08633C9295434D256 /* FISampleFormat.h */,
-				17A966647DFBE589970CF67231628A9D /* FISampleFormat.m */,
-				E219DC00854BCE9C6B549C5ACAD67025 /* FISound.h */,
-				E6DFA81AAE0B734313B934D234DE7510 /* FISound.m */,
-				3C27F3C0743928092E0854107481B2A7 /* FISoundContext.h */,
-				46AFB068CC6C5B2A080EEBFE1C1B07B8 /* FISoundContext.m */,
-				3F897596F876D9CBD5938CB176EFDF38 /* FISoundDevice.h */,
-				276530C11EC804C98F731F0D46E9B6B8 /* FISoundDevice.m */,
-				A3BF2AB9AF401EB7642DD9BDA9527982 /* FISoundEngine.h */,
-				809AFFF71FEA6424B94C6D98417BDDA5 /* FISoundEngine.m */,
-				E5C3CEEA9050A4A68E53BCE4FEDD202F /* FISoundSource.h */,
-				974B82F3FC30434521274D39CAB563EF /* FISoundSource.m */,
-				62DABA6F3C84A135DBA8D8989FA770FF /* Support Files */,
-			);
-			name = Finch;
-			path = Finch;
-			sourceTree = "<group>";
-		};
-		41ACCD9850655531E5770D6553BB6A4B /* Pods-Drumstik */ = {
-			isa = PBXGroup;
-			children = (
-				C4626A4372752D7D7BE06F6BC13A58D3 /* Pods-Drumstik-acknowledgements.markdown */,
-				A74265769FF8A4D3B339758812DB4656 /* Pods-Drumstik-acknowledgements.plist */,
-				44F03A1C7138B46A2622C95D595A6190 /* Pods-Drumstik-dummy.m */,
-				45DE939CF375A44ED3C1C51E07D67461 /* Pods-Drumstik-frameworks.sh */,
-				157C34CA909D7D07CF40DBD95C52E415 /* Pods-Drumstik-resources.sh */,
-				59C54246DC9B91CE35982DEB4C829072 /* Pods-Drumstik.debug.xcconfig */,
-				4621F6CE9153C1DA627921ECDA8E743F /* Pods-Drumstik.release.xcconfig */,
-			);
-			name = "Pods-Drumstik";
-			path = "Target Support Files/Pods-Drumstik";
-			sourceTree = "<group>";
-		};
-		62DABA6F3C84A135DBA8D8989FA770FF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5C9DCEBDA5ECAC3CD0F2FCBEB51C9662 /* Finch.xcconfig */,
-				97198D82530A4C65330695042034139D /* Finch-dummy.m */,
-				D72B86B1C44B0C9B142433D92DEEFB02 /* Finch-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Finch";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -185,35 +199,86 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				9A8961BC48C924FF9E1935E665E581A4 /* Pods */,
-				33FBAB8BCA5C3A2CC442DB09526CF237 /* Products */,
-				AF974ABD57A97B56E04ADCF06EE5DBE0 /* Targets Support Files */,
+				E5CBCDC1DF4A94C98E361972A04A11C7 /* Pods */,
+				774DAA79D39F833AEAEF3002D17C8FB4 /* Products */,
+				DE97D14D1B0FF760FCB7C43E09688E71 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9A8961BC48C924FF9E1935E665E581A4 /* Pods */ = {
+		93E49EBE30272A23A6D3BBB12B4A92EF /* SandboxBrowser */ = {
 			isa = PBXGroup;
 			children = (
-				388158CFA543B9196E9D703955499C47 /* Finch */,
+				B3286D487DD47BC4832609FE5980400D /* SandboxBrowser.swift */,
+				D7552479EF254E9228AF896A4C875269 /* Resources */,
+				A3E25FB6D25B94483BF72393D9071A6D /* Support Files */,
 			);
-			name = Pods;
+			name = SandboxBrowser;
+			path = SandboxBrowser;
 			sourceTree = "<group>";
 		};
-		AF974ABD57A97B56E04ADCF06EE5DBE0 /* Targets Support Files */ = {
+		A3E25FB6D25B94483BF72393D9071A6D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				41ACCD9850655531E5770D6553BB6A4B /* Pods-Drumstik */,
+				BF78F8CF852829D89F9DB13BB4AC3F69 /* SandboxBrowser.modulemap */,
+				1EA1F87E558BB8706382B3C35B96B0C4 /* SandboxBrowser.xcconfig */,
+				25C6832F7BCCCBD675D9ABB8C8D9BF94 /* SandboxBrowser-dummy.m */,
+				0AB1823ECE07D156A6EE6D0326FF5FEA /* SandboxBrowser-prefix.pch */,
+				4C5E6219E8DA7DAA3C0078850BE5E7B8 /* SandboxBrowser-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SandboxBrowser";
+			sourceTree = "<group>";
+		};
+		A7C5935D8B25213E0D55D6CF885F729A /* Pods-Drumstik */ = {
+			isa = PBXGroup;
+			children = (
+				F655E2A41F68160D7A9171E3BD04314F /* Pods-Drumstik.modulemap */,
+				21E398EA9D4952ACBFA4CEFB64DC1CEC /* Pods-Drumstik-acknowledgements.markdown */,
+				4ECE03ED98307C04A35DC47728960098 /* Pods-Drumstik-acknowledgements.plist */,
+				A65B0E59DD6930E98DE88211E0D7F71D /* Pods-Drumstik-dummy.m */,
+				9822E69EB9D01B1821B82B830A6094A1 /* Pods-Drumstik-frameworks.sh */,
+				33683A3F4E94461A14335790AD4BF0D0 /* Pods-Drumstik-resources.sh */,
+				D89552F7B06B1928486358407D22879E /* Pods-Drumstik-umbrella.h */,
+				A6F595E2061FEACD242ACBB3C0A7CB64 /* Pods-Drumstik.debug.xcconfig */,
+				CD8865BC97AB30D4B8660F9F4BFCB558 /* Pods-Drumstik.release.xcconfig */,
+			);
+			name = "Pods-Drumstik";
+			path = "Target Support Files/Pods-Drumstik";
+			sourceTree = "<group>";
+		};
+		D7552479EF254E9228AF896A4C875269 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD276F16E073516AF5A9AEE3824ED92A /* Resources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DE97D14D1B0FF760FCB7C43E09688E71 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7C5935D8B25213E0D55D6CF885F729A /* Pods-Drumstik */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E5CBCDC1DF4A94C98E361972A04A11C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1ED6A92C8552A3DB4406F61617A0A051 /* Finch */,
+				93E49EBE30272A23A6D3BBB12B4A92EF /* SandboxBrowser */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		262810CDC45EAAD1ED0419DCCA74123C /* Headers */ = {
+		0383FDB552918A960E69EF02FAD1DF7B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56E38543CC628FE51243E2AAEC09B61D /* Pods-Drumstik-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,25 +298,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF6A6039C489A63E717B14DC8F09A6A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA498AFDDB4BCEB55FFE6E040B89C692 /* SandboxBrowser-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		11F850E2E773033AD4748F46A1FC8BD7 /* Pods-Drumstik */ = {
+		1331052755E9B0CFBB93DA55F852A07F /* Pods-Drumstik */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1A06842BFF25B4B827D353F93FB811D /* Build configuration list for PBXNativeTarget "Pods-Drumstik" */;
+			buildConfigurationList = 2D46ECE8C0B5721EC3E2BFE7E0F49A7C /* Build configuration list for PBXNativeTarget "Pods-Drumstik" */;
 			buildPhases = (
-				262810CDC45EAAD1ED0419DCCA74123C /* Headers */,
-				986C5BA74B50F0DDB9E838E56C08A42C /* Sources */,
-				D1AF46852ADE7E7404F6331FD928881B /* Frameworks */,
+				0383FDB552918A960E69EF02FAD1DF7B /* Headers */,
+				13F64D0F11FFDD457F94DA71A894CCF7 /* Sources */,
+				6BE79CD3824A4D371C31F125850C390A /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A4FED4293A257C261A2C150F3F24A3A0 /* PBXTargetDependency */,
+				FB76A30E42BC24227D00BFBFE3A37E16 /* PBXTargetDependency */,
+				DC9E90C4AE85EF0A348C33197F57FB84 /* PBXTargetDependency */,
 			);
 			name = "Pods-Drumstik";
 			productName = "Pods-Drumstik";
-			productReference = 4DE94F4C846FCFE6FD709072723F8853 /* libPods-Drumstik.a */;
+			productReference = F984B441EEAF8E9721180BE62FD8CB61 /* libPods-Drumstik.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		A6555EF4E1E6D301EAA85F74EB2A875A /* Finch */ = {
@@ -268,7 +342,25 @@
 			);
 			name = Finch;
 			productName = Finch;
-			productReference = D0158753710D484D47A1DFC8CCE6057C /* libFinch.a */;
+			productReference = 38B6D9EF18AF9B2B4FE522D61F2F7186 /* libFinch.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C29CC62917038C7E94B20581A87D0FDF /* SandboxBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F720075BFE4BFB2E2D6370BCDEF9B3B1 /* Build configuration list for PBXNativeTarget "SandboxBrowser" */;
+			buildPhases = (
+				BF6A6039C489A63E717B14DC8F09A6A7 /* Headers */,
+				B1B7CE00C4C75CF1BF5BCA831F1F2268 /* Sources */,
+				8ECEE46C562D97CEC89FBCA1885D9890 /* Frameworks */,
+				DE796FD67CBC1BA882B2628A9530E9CC /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SandboxBrowser;
+			productName = SandboxBrowser;
+			productReference = 14C2996F7F50863B60F14A567A4F5B15 /* libSandboxBrowser.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -288,17 +380,54 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 33FBAB8BCA5C3A2CC442DB09526CF237 /* Products */;
+			productRefGroup = 774DAA79D39F833AEAEF3002D17C8FB4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A6555EF4E1E6D301EAA85F74EB2A875A /* Finch */,
-				11F850E2E773033AD4748F46A1FC8BD7 /* Pods-Drumstik */,
+				1331052755E9B0CFBB93DA55F852A07F /* Pods-Drumstik */,
+				C29CC62917038C7E94B20581A87D0FDF /* SandboxBrowser */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DE796FD67CBC1BA882B2628A9530E9CC /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/SandboxBrowser/SandboxBrowser.modulemap",
+				"${PODS_ROOT}/Headers/Public/SandboxBrowser/SandboxBrowser-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/SandboxBrowser-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SandboxBrowser/SandboxBrowser.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/SandboxBrowser/SandboxBrowser-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		13F64D0F11FFDD457F94DA71A894CCF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65866131343987752B96AB1292869542 /* Pods-Drumstik-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4A1BFA1F069366F838A53B524FBD6516 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -316,22 +445,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		986C5BA74B50F0DDB9E838E56C08A42C /* Sources */ = {
+		B1B7CE00C4C75CF1BF5BCA831F1F2268 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5498CB7CB346A3C52C72D4B22BA0351E /* Pods-Drumstik-dummy.m in Sources */,
+				B2F2F94904D2BDAE134146B0FDFD4ED5 /* SandboxBrowser-dummy.m in Sources */,
+				F28B6F2A838D86BE959A83E383041CF8 /* SandboxBrowser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A4FED4293A257C261A2C150F3F24A3A0 /* PBXTargetDependency */ = {
+		DC9E90C4AE85EF0A348C33197F57FB84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SandboxBrowser;
+			target = C29CC62917038C7E94B20581A87D0FDF /* SandboxBrowser */;
+			targetProxy = 1B43D4D6B3F80A40AEF1D517C319AEE7 /* PBXContainerItemProxy */;
+		};
+		FB76A30E42BC24227D00BFBFE3A37E16 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Finch;
 			target = A6555EF4E1E6D301EAA85F74EB2A875A /* Finch */;
-			targetProxy = 0D55D8D9DF424B047D921B66F7E7C7F7 /* PBXContainerItemProxy */;
+			targetProxy = D69BC2F7AC4098496C6CC67705E9898E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -402,26 +538,50 @@
 			};
 			name = Debug;
 		};
-		192BEC987985A2B2FFEB85DEFF17CCE3 /* Release */ = {
+		5414DF3F0328F50D5B4F461EB9985416 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C9DCEBDA5ECAC3CD0F2FCBEB51C9662 /* Finch.xcconfig */;
+			baseConfigurationReference = A6F595E2061FEACD242ACBB3C0A7CB64 /* Pods-Drumstik.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/Finch/Finch-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Drumstik/Pods-Drumstik.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		613E799D49DE316617C1B9537418CE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA1F87E558BB8706382B3C35B96B0C4 /* SandboxBrowser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SandboxBrowser/SandboxBrowser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SandboxBrowser/SandboxBrowser.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = Finch;
-				PRODUCT_NAME = Finch;
+				PRODUCT_MODULE_NAME = SandboxBrowser;
+				PRODUCT_NAME = SandboxBrowser;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -489,54 +649,9 @@
 			};
 			name = Release;
 		};
-		A685907AD09BADADF76141F4EAF9024D /* Debug */ = {
+		949402F63ECC44C6781423AED00553AD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59C54246DC9B91CE35982DEB4C829072 /* Pods-Drumstik.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		BF4AAA91EEEE8AF0030BC95141ED3827 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4621F6CE9153C1DA627921ECDA8E743F /* Pods-Drumstik.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		EAE631DFD6E4C8F3348DD3EBEEB959CE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C9DCEBDA5ECAC3CD0F2FCBEB51C9662 /* Finch.xcconfig */;
+			baseConfigurationReference = 75583ED6F8DDFB817481742CA8B5E8AD /* Finch.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -554,6 +669,82 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5A7AC986CEDF9975D1F1CEF476606A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75583ED6F8DDFB817481742CA8B5E8AD /* Finch.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Finch/Finch-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Finch;
+				PRODUCT_NAME = Finch;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3DA6A4681A2005D4701AF536FFEA458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD8865BC97AB30D4B8660F9F4BFCB558 /* Pods-Drumstik.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Drumstik/Pods-Drumstik.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8821DB72315DCD86956085069005EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EA1F87E558BB8706382B3C35B96B0C4 /* SandboxBrowser.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SandboxBrowser/SandboxBrowser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/SandboxBrowser/SandboxBrowser.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SandboxBrowser;
+				PRODUCT_NAME = SandboxBrowser;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -561,6 +752,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2D46ECE8C0B5721EC3E2BFE7E0F49A7C /* Build configuration list for PBXNativeTarget "Pods-Drumstik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5414DF3F0328F50D5B4F461EB9985416 /* Debug */,
+				C3DA6A4681A2005D4701AF536FFEA458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -570,20 +770,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1A06842BFF25B4B827D353F93FB811D /* Build configuration list for PBXNativeTarget "Pods-Drumstik" */ = {
+		B6181EB358BF0EC4E58DE358D1F2181C /* Build configuration list for PBXNativeTarget "Finch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A685907AD09BADADF76141F4EAF9024D /* Debug */,
-				BF4AAA91EEEE8AF0030BC95141ED3827 /* Release */,
+				B5A7AC986CEDF9975D1F1CEF476606A4 /* Debug */,
+				949402F63ECC44C6781423AED00553AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6181EB358BF0EC4E58DE358D1F2181C /* Build configuration list for PBXNativeTarget "Finch" */ = {
+		F720075BFE4BFB2E2D6370BCDEF9B3B1 /* Build configuration list for PBXNativeTarget "SandboxBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EAE631DFD6E4C8F3348DD3EBEEB959CE /* Debug */,
-				192BEC987985A2B2FFEB85DEFF17CCE3 /* Release */,
+				F8821DB72315DCD86956085069005EE2 /* Debug */,
+				613E799D49DE316617C1B9537418CE66 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

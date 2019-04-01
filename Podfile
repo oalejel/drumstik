@@ -7,5 +7,6 @@ target 'Drumstik' do
 
   # Pods for Drumstik
   pod 'Finch'
+  pod 'SandboxBrowser'
 
 end

@@ -13,6 +13,9 @@
 		3D2B71A122480E0F0019BC6F /* kick-drum-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D2B71A022480E0F0019BC6F /* kick-drum-1.wav */; };
 		3D2B71A42248340E0019BC6F /* MultitouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B71A32248340E0019BC6F /* MultitouchView.m */; };
 		3D51F90C2246CA9B000357F5 /* floor-tom-1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D51F90B2246CA9B000357F5 /* floor-tom-1.wav */; };
+		3DBEB94F224FB3F000AB9F3C /* Learner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBEB94E224FB3F000AB9F3C /* Learner.swift */; };
+		3DBEB951224FB41000AB9F3C /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DBEB950224FB41000AB9F3C /* CoreML.framework */; };
+		3DBEB9532251226300AB9F3C /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBEB9522251226200AB9F3C /* CSV.swift */; };
 		3DC6D1642245C7AE0053E9F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6D1632245C7AE0053E9F5 /* AppDelegate.m */; };
 		3DC6D1672245C7AE0053E9F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC6D1662245C7AE0053E9F5 /* ViewController.m */; };
 		3DC6D16A2245C7AE0053E9F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DC6D1682245C7AE0053E9F5 /* Main.storyboard */; };
@@ -29,6 +32,10 @@
 		3D2B71A22248340E0019BC6F /* MultitouchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultitouchView.h; sourceTree = "<group>"; };
 		3D2B71A32248340E0019BC6F /* MultitouchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultitouchView.m; sourceTree = "<group>"; };
 		3D51F90B2246CA9B000357F5 /* floor-tom-1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "floor-tom-1.wav"; sourceTree = "<group>"; };
+		3DBEB94D224FB3EF00AB9F3C /* Drumstik-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Drumstik-Bridging-Header.h"; sourceTree = "<group>"; };
+		3DBEB94E224FB3F000AB9F3C /* Learner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learner.swift; sourceTree = "<group>"; };
+		3DBEB950224FB41000AB9F3C /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = System/Library/Frameworks/CoreML.framework; sourceTree = SDKROOT; };
+		3DBEB9522251226200AB9F3C /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CSV.swift; path = "../../../../Downloads/UID Motion Tracking/Other 3rd Party/CSV.swift"; sourceTree = "<group>"; };
 		3DC6D15F2245C7AE0053E9F5 /* Drumstik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drumstik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC6D1622245C7AE0053E9F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3DC6D1632245C7AE0053E9F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DBEB951224FB41000AB9F3C /* CoreML.framework in Frameworks */,
 				1573E45F39F9D094B0076570 /* libPods-Drumstik.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -60,6 +68,7 @@
 		10D7EF7EC8685B0F3375BC14 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3DBEB950224FB41000AB9F3C /* CoreML.framework */,
 				BFDED5E9FA8B458F89D76CC9 /* libPods-Drumstik.a */,
 			);
 			name = Frameworks;
@@ -88,6 +97,8 @@
 			children = (
 				3DC6D1622245C7AE0053E9F5 /* AppDelegate.h */,
 				3DC6D1632245C7AE0053E9F5 /* AppDelegate.m */,
+				3DBEB9522251226200AB9F3C /* CSV.swift */,
+				3DBEB94E224FB3F000AB9F3C /* Learner.swift */,
 				3DC6D1652245C7AE0053E9F5 /* ViewController.h */,
 				3DC6D1662245C7AE0053E9F5 /* ViewController.m */,
 				3D2B71A22248340E0019BC6F /* MultitouchView.h */,
@@ -102,6 +113,7 @@
 				3DC6D16D2245C7AF0053E9F5 /* LaunchScreen.storyboard */,
 				3DC6D1702245C7AF0053E9F5 /* Info.plist */,
 				3DC6D1712245C7AF0053E9F5 /* main.m */,
+				3DBEB94D224FB3EF00AB9F3C /* Drumstik-Bridging-Header.h */,
 			);
 			path = Drumstik;
 			sourceTree = "<group>";
@@ -126,6 +138,7 @@
 				3DC6D15B2245C7AE0053E9F5 /* Sources */,
 				3DC6D15C2245C7AE0053E9F5 /* Frameworks */,
 				3DC6D15D2245C7AE0053E9F5 /* Resources */,
+				DBB143F0D7C2A3DC4ABAFFF4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,6 +160,7 @@
 				TargetAttributes = {
 					3DC6D15E2245C7AE0053E9F5 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -209,6 +223,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DBB143F0D7C2A3DC4ABAFFF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Drumstik/Pods-Drumstik-resources.sh",
+				"${PODS_ROOT}/SandboxBrowser/SandboxBrowserExample/SandboxBrowser/Resources/Resources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Resources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Drumstik/Pods-Drumstik-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -218,7 +254,9 @@
 			files = (
 				3D2B71A42248340E0019BC6F /* MultitouchView.m in Sources */,
 				3DC6D1672245C7AE0053E9F5 /* ViewController.m in Sources */,
+				3DBEB9532251226300AB9F3C /* CSV.swift in Sources */,
 				3DC6D1722245C7AF0053E9F5 /* main.m in Sources */,
+				3DBEB94F224FB3F000AB9F3C /* Learner.swift in Sources */,
 				3DC6D1642245C7AE0053E9F5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +400,7 @@
 			baseConfigurationReference = 52459FC8760FC703F5A2A24B /* Pods-Drumstik.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DL7989H5XT;
 				INFOPLIST_FILE = Drumstik/Info.plist;
@@ -371,6 +410,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.omaralejel.Drumstik;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Drumstik/Drumstik-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -380,6 +422,7 @@
 			baseConfigurationReference = E617BCA0607EAF36CF847CEE /* Pods-Drumstik.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DL7989H5XT;
 				INFOPLIST_FILE = Drumstik/Info.plist;
@@ -389,6 +432,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.omaralejel.Drumstik;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Drumstik/Drumstik-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

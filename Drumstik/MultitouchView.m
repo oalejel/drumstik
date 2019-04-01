@@ -34,6 +34,9 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [super touchesBegan:touches withEvent:event];
     self.currentTouchCount += touches.count;
+    
+    
+    // IDEA: IGNORE touches that begin on the edges of the screen 
 }
 
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {

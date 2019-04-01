@@ -1,0 +1,6 @@
+module Pods_Drumstik {
+  umbrella header "Pods-Drumstik-umbrella.h"
+
+  export *
+  module * { export * }
+}

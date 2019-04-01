@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1331052755E9B0CFBB93DA55F852A07F"
-               BlueprintName = "Pods-Drumstik"
+               BlueprintIdentifier = "C29CC62917038C7E94B20581A87D0FDF"
+               BlueprintName = "SandboxBrowser"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-Drumstik.a">
+               BuildableName = "libSandboxBrowser.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

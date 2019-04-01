@@ -10,6 +10,8 @@
 #import "FISoundEngine.h"
 #import <CoreMotion/CoreMotion.h>
 #import "MultitouchView.h"
+#import <os/log.h>
+#import "Drumstik-Swift.h"
 
 @interface ViewController ()
 
@@ -49,14 +51,6 @@ int balance_count = 0;
         });
     }];
     
-//    // create gesture recognizer to track number of finger s
-//    for (int i = 1; i < 5; i++) {
-//        UILongPressGestureRecognizer *rec = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(gestureRecognized:)];
-//        [rec setMinimumPressDuration:0.05];
-//        rec.numberOfTouchesRequired = i;
-//        [self.view addGestureRecognizer:rec];
-//    }
-    
     // prepare audio engine
     self.engine = [FISoundEngine sharedEngine];
     NSArray *soundFilenames = @[@"floor-tom-1.wav", @"snare-1.wav", @"snare-rim-1.wav", @"kick-drum-1.wav"];
@@ -76,6 +70,7 @@ int balance_count = 0;
         double y = fabs(accelerometerData.acceleration.y);
         double z = fabs(accelerometerData.acceleration.z);
         double sum = x + y + z;
+        
         // this approach to being ready for another hit might not be enough
         // might want a vector based approach that considers whether the user
         // is created a force vector in a certain directiont that is sufficient using a sum of
@@ -89,11 +84,21 @@ int balance_count = 0;
                 [self.sounds[soundIndex] play];
                 [self animateStrike];
             }
-        } else if (sum < 2.2) {
-            balance_count++;
-            if (balance_count > 3) {
-                balance_count = 0;
-                rebalanced = true;
+            
+            // save data point as a measured strike
+            [[Learner shared] appendWithDatum:sum isHit:true];
+            
+        } else {
+            // save data as no strike
+            [[Learner shared] appendWithDatum:sum isHit:false];
+            
+            if (sum < 2.2) {
+                balance_count++;
+                if (balance_count > 3) {
+                    balance_count = 0;
+                    rebalanced = true;
+                    
+                }
             }
         }
     }];
@@ -185,6 +190,15 @@ bool layedOutSubviews = false;
 }
 
 //- (int)currentFingerCount
+- (IBAction)recordPressed:(UIButton *)sender {
+    if (sender.tag == 0) {
+        sender.tag = 1;
+        sender.titleLabel.text = @"Export CSV";
+        
+    } else {
+        sender.tag = 0
+    }
+}
 
 
 @end

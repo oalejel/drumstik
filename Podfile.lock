@@ -1,16 +1,20 @@
 PODS:
   - Finch (1.0.3)
+  - SandboxBrowser (0.0.3)
 
 DEPENDENCIES:
   - Finch
+  - SandboxBrowser
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Finch
+    - SandboxBrowser
 
 SPEC CHECKSUMS:
   Finch: 96b95b2d01f91a40b546b78c24b3bcfce7cb2b6b
+  SandboxBrowser: 285cdd3c61e0e7b0a4ea7f85f44d73eb32e529fb
 
-PODFILE CHECKSUM: 6110498b3857ed003687c1e1d1173d4d64927213
+PODFILE CHECKSUM: f872c36d3a9203683a9cf373b0c94e8366ccef9a
 
 COCOAPODS: 1.5.3
